@@ -1,0 +1,149 @@
+html, body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.naszeTlo{
+    background-image: url("grafika/1.jpg");
+    background-size: cover;
+}
+.maxWysokosc{
+    max-height: 270px;
+    max-width: 100%;
+}
+.easeandout:hover{
+    transform: rotate(15deg);
+}
+.easeandout{
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.easeandout2:hover{
+    transform: rotate(-15deg);
+}
+.easeandout2{
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.naszImg{
+
+}
+.naszDiv{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color:  #e8d900;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s; 
+}
+.naszDiv:hover{
+    opacity:0.8;
+}
+.naszDiv p{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    color : #fff;
+    font-family: 'Century Gothic';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.naszeJumbotron{
+    padding: 1rem;
+    opacity: 0.85;
+}
+/*Small devices (tablets, 768px and up)*/ 
+@media (max-width: 576px) {
+    .jumbotron h1 {
+        font-size: 1.5rem;
+    }
+    #kontakt h1{
+        font-size: 2rem;
+    }
+    .naszprzycisk{
+        font-size: 1rem;
+        line-height: 1;
+        padding: 0.5rem 1rem;
+    }.naszaczcionka{
+        font-size: 1rem;
+    }    
+    .naszpadding{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+}
+/*Small devices (tablets, 768px and up)*/ 
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+}
+/*Small devices (tablets, 768px and up)*/ 
+@media (max-width: 992px) {
+    .jumbotron h1 {
+        font-size: 1.75rem;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 1200px) {
+    .portrety h5{
+        font-size: 1rem;
+    }
+}
+.naszpadding{
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+}
+
+.naszaczcionka{
+    font-size: 1.5rem;
+}
+.link{
+    color : black;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.link a{
+    color: black;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.link:hover{
+    transform: scale(1.1);
+    color: #e8d900;
+}
+.link a:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+    color: #e8d900;
+}
+.naszprzycisk{
+    background-color: #e8d900;
+    border-color: #f05f40;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
